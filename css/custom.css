@@ -4,6 +4,13 @@
 
 /*GLOBAL*/
 
+.btn{
+    border-radius: 0;
+    transition: all ease-in .2s;
+    background: #3695c4;
+    border: 1px solid #3eabe0;
+}
+
 /*NAVIGATION*/
 .navbar {
     border-radius: 0 !important;
@@ -16,7 +23,39 @@
     line-height: 14px;
 }
 
+.navbar-brand small {
+  display:block;
+  font-size:12px;
+}
+
+.navbar-toggle {top:10px}
+
+@media (min-width:768px) {
+  
+  .navbar-brand {
+    padding-top:20px;
+  }
+  
+  .nav.navbar-nav a {
+    padding-top:30px;
+    padding-bottom:30px;
+  }
+
+}
+
 /*HEADER*/
+
+
+/*SLIDER*/
+
+.slide-1{
+    background: url('../img/slide1.jpg') no-repeat top center;
+    
+}
+
+.slide-2{
+    background: url('../img/slide2.jpg') no-repeat top center;
+}
 
 
 /*========================
